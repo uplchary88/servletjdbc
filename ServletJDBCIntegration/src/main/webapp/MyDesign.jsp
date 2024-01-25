@@ -9,12 +9,8 @@
     /> 
 
 
-
 </head>
 <body>
-
-
-
 <!-- NAVBAR -->
     <nav class="navbar navbar-expand navbar-dark bg-success"> 
       <div class="container-fluid"> 
@@ -30,10 +26,10 @@
             <a class="nav-link active" href="Retrive.jsp">Search</a> 
           </li> 
           <li class="nav-item"> 
-            <a class="nav-link active" href="DeleteUser.jsp">Delete Here</a> 
+            <a class="nav-link" href="DeleteUser.jsp">Delete Here</a> 
           </li> 
           <li class="nav-item"> 
-            <a class="nav-link active" href="SearchByDate.jsp">Search By DOB</a> 
+            <a class="nav-link" href="DeleteUser.jsp">Search By DOB</a> 
           </li>
         </ul> 
       </div> 
@@ -41,21 +37,6 @@
     <script src= 
 "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     ></script> 
+  </body> 
 
-<br></br>
-
-
-
-
-<center>
-<body>
-<form action="delete" method="post">
-<h1>Delete User !!!</h1>
-Enter UserId : <input type="text" name="uid">
-
-<input type="submit" value="delete">
-<input type="button" name="cancel" value="reset">
-</form>
-</body>
-</center>
 </html>
